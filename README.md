@@ -71,6 +71,16 @@ make start
 
 The app should now be up and running at http://127.0.0.1:5000/
 
+*If you encounter the following on MacOS*
+
+"docker: Error response from daemon: Ports are not available: exposing port TCP 0.0.0.0:5000 -> 0.0.0.0:0: listen tcp 0.0.0.0:5000: bind: address already in use."
+
+*You may need to disable AirPlay reciever for this excercise.*
+
+*System Settings > General > AirDrop & Handoff > AirPlay Receiver.*
+
+
+
 Navigate to http://127.0.0.1:5000/apidocs/ to view the API interface and make requests
 
 ## Cleanup
